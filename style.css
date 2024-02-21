@@ -1,0 +1,15 @@
+body {
+    background-image: radial-gradient(circle, #FFFFFF, #E6F7FD);
+}
+button {
+    background-color: red;
+    border: 1px solid gray;
+    display: block;
+    margin: auto;
+    margin-top: 30%;
+    width: 100px;
+    height: 100px;
+}
+button:hover {
+    cursor: pointer;
+}
