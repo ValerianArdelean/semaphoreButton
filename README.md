@@ -17,5 +17,6 @@ The app is changing the colours at every ten secconds, on or every click
 you made on it.
 
 ## License
-
+The content of this repository is licensed under a Creative [Commons 
+Attribution License](https://creativecommons.org/licenses/by/3.0/us/)
 
