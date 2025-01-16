@@ -1,15 +1,37 @@
 body {
-    background-image: radial-gradient(circle, #FFFFFF, #E6F7FD);
+	background-image: radial-gradient(circle, #FFFFFF, #E6F7FD);
+	display: grid;
+	grid-template-rows: 10% 80% 10%;
+	height: 100vh;
+	margin: 0;
 }
-button {
-    background-color: red;
-    border: 1px solid gray;
-    display: block;
-    margin: auto;
-    margin-top: 30%;
-    width: 100px;
-    height: 100px;
+
+main {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
+
+.text {
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	letter-spacing: 1px;
+	color: #C75050;
+}
+
+#button {
+	background-color: red;
+	border: 1px solid gray;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	color: black;
+	font-size: 1em;
+	padding: 25px;
+}
+
 button:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
