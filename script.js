@@ -1,18 +1,12 @@
-let colors = ["red", "yellow", "green"];
-let color = 1;
 let button = document.getElementById("button");
+let colors = ["red", "yellow", "green"];
+let color = 0;
 
 function changeColor() {
 	button.style.backgroundColor = colors[color];
-	color += 1;
-	resetInterval();
-	if (color > 2) {
-		color = 0;
-	}
+	color = (color + 1) % colors.length;
 }
 
-let time = setInterval(changeColor, 10000);
-function resetInterval() {
-	clearInterval(time);
-	time = setInterval(changeColor, 10000);
-}
+changeColor();
+
+setInterval(changeColor, 10000);
