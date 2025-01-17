@@ -5,6 +5,7 @@
     <figcaption>A screenshot of the preview page showing the layout.</figcaption>
 </figure>
 
+##
 A simple web app with a button that toggles between 3 colors on each 
 click. Additionally, if you don't click, it automatically changes the 
 color every 10 seconds. The sole purpose of this app is for me to 
