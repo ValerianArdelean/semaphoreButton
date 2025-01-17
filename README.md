@@ -1,13 +1,14 @@
 # semaphoreButton
 
-<picture>
-	<img width="1161" alt="Screenshot" src='assets/preview.png'>
-</picture>
+<figure>
+    <img width="1161" alt="Screenshot of the preview page" src="assets/preview.png">
+    <figcaption>A screenshot of the preview page showing the layout.</figcaption>
+</figure>
 
-A simple web app that contains a button who toggle between 3 colors at 
-every click and also at every 10 seconds
-
-The sole pourpose of this app is for me to exercise
+A simple web app with a button that toggles between 3 colors on each 
+click. Additionally, if you don't click, it automatically changes the 
+color every 10 seconds. The sole purpose of this app is for me to 
+practice.
 
 ## Run the app
 
@@ -20,7 +21,7 @@ favorite web browser
 The app is changing the colours at every ten secconds, on or every click 
 you made on it.
 
-## License
+#
 The content of this repository is licensed under a Creative [Commons 
 Attribution License](https://creativecommons.org/licenses/by/3.0/us/)
 
