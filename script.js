@@ -1,7 +1,7 @@
 let colors = ["red", "yellow", "green"];
 let color = 1;
 let button = document.getElementById("button");
-button.addEventListener("click", changeColor);
+
 function changeColor() {
 	button.style.backgroundColor = colors[color];
 	color += 1;
